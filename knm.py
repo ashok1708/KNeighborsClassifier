@@ -27,11 +27,5 @@ for i in range(1,40):
     err.append(np.mean(pr!=y_test))
 print(err)
 
-
-
 plt.plot(range(1,40),err,marker= "o")
 plt.show()
-# set=pd.DataFrame(y,columns=df.columns[:-1])
-# # print(set.head())
-# print(confusion_matrix(y_test,prediction))
-# print(classification_report(y_test,prediction))
